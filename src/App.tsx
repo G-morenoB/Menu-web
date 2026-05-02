@@ -5,6 +5,7 @@ import Comidas from "./sections/Comidas"
 import Bebidas from "./sections/Bebidas"
 import Infantil from "./sections/Infantil"
 import Footer from "./components/layout/Footer"
+import Postres from "./sections/Postres"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Comidas />
       <Bebidas />
       <Infantil />
+      <Postres />
       <Footer />
     </>
   )

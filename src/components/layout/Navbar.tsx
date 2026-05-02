@@ -1,4 +1,4 @@
-import { Baby, Coffee, GlassWater, Utensils } from "lucide-react"
+import { Baby, Coffee, GlassWater, Utensils, CakeSlice  } from "lucide-react"
 import { motion } from "framer-motion"
 import { useEffect, useState } from "react"
 
@@ -6,7 +6,8 @@ const categorias = [
   { nombre: "Desayunos", icon: Coffee, id: "desayunos" },
   { nombre: "Comidas", icon: Utensils, id: "comidas" },
   { nombre: "Bebidas", icon: GlassWater, id: "bebidas" },
-  { nombre: "Infantil", icon: Baby, id: "infantil" }
+  { nombre: "Infantil", icon: Baby, id: "infantil" },
+  { nombre: "Postres", icon: CakeSlice, id: "postres" }
 ]
 
 export default function Navbar() {

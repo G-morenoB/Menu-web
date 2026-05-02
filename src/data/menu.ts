@@ -88,9 +88,32 @@ export const menu = {
     },
     {
       id: 12,
-      nombre: "Torta de Chocolate",
+      nombre: "Torta de Pollo",
       precio: 4.5,
-      descripcion: "Torta de chocolate con glaseado",
+      descripcion: "Torta de pollo con verduras y salsa",
+      imagen: "/assets/hero.png"
+    }
+  ],
+  postres: [
+    {
+      id: 13,
+      nombre: "Pastel de Chocolate",
+      precio: 5.0,
+      descripcion: "Pastel de chocolate con relleno de crema",
+      imagen: "/assets/hero.png"
+    },
+    {
+      id: 14,
+      nombre: "Helado de Vainilla",
+      precio: 3.5,
+      descripcion: "Helado de vainilla con caramelo",
+      imagen: "/assets/hero.png"
+    },
+    {
+      id: 15,
+      nombre: "Tarta de Manzana",
+      precio: 4.5,
+      descripcion: "Tarta de manzana con canela y azúcar glas",
       imagen: "/assets/hero.png"
     }
   ]
