@@ -29,7 +29,7 @@ export default function Header() {
             animate={{ backgroundPosition: ["0%", "100%", "0%"] }}
             transition={{ duration: 5, repeat: Infinity }}
           >
-            Obdulio
+            Restaurant
           </motion.h1>
 
           {/* SUBTITULO */}
