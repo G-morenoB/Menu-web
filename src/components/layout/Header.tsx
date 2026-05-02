@@ -29,12 +29,12 @@ export default function Header() {
             animate={{ backgroundPosition: ["0%", "100%", "0%"] }}
             transition={{ duration: 5, repeat: Infinity }}
           >
-            Restaurant
+            Menú
           </motion.h1>
 
           {/* SUBTITULO */}
           <p className="text-gray-600 mt-2 text-lg">
-            Cocina Casera y Natural
+            Restaurante
           </p>
 
         </div>
